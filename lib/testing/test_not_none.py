@@ -5,3 +5,9 @@ from not_none_functions import return_not_none
 # def test_return_not_none():
 #     '''in not_none_functions, function "return_not_none" returns a value that is not None.'''
 #     assert False
+# testing/test_not_none.py
+
+def return_not_none(arg):
+    assert return_not_none("example") is True
+    # Add more assertions based on the requirements of the check_not_none function
+
